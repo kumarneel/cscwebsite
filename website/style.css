@@ -1,0 +1,88 @@
+body {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	overflow-x: hidden;
+	
+}
+	#backdrop {
+		background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sdsumain.jpg/1200px-Sdsumain.jpg');
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+		top: 0;
+		bottom: 0;
+		height: 100vh;
+		z-index: -10;
+	}
+
+	#backdrop-overlay {
+		position: absolute;
+		background-color: rgba(30,30,30, 0.85);
+		top: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -5;
+	}
+	.red{
+		font-size: 30px;
+		line-height: 62px;
+		font-family: calibri;
+		text-align: left;
+		font-weight: 600;
+		color: rgb(255,0,0);
+		position: absolute; 
+		top: 0px;
+		left: 40px
+	}
+	.white{
+		font-size: 30px;
+		line-height: 62px;
+		font-family: calibri;
+		text-align: left;
+		font-weight: 600;
+		color: rgb(255,255,255);
+		position: absolute; 
+		top: 0px;
+		left: 115px
+		
+	}
+	
+	.connect{
+		font-size: 100px;
+		line-height: 62px;
+		font-family: calibri;
+		font-weight: 550;
+		color: rgb(255,255,255);
+		opacity: 0.33;
+		position: relative; 
+		top: 120px;
+		left: 300px
+	}
+	.elevate{
+		font-size: 100px;
+		line-height: 62px;
+		font-family: calibri;
+		font-weight: 550;
+		color: rgb(255,255,255);
+		opacity: 0.66;
+		position: relative; 
+		top: 40px;
+		left: 300px
+		
+	}
+	.collaborate{
+		font-size: 100px;
+		line-height: 62px;
+		font-family: calibri;
+		font-weight: 550;
+		color: rgb(255,255,255);
+		position: relative; 
+		top: -30px;
+		left: 300px
+	}
+	
+	
+	
